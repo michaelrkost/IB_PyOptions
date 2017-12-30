@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/IB_api.iml" filepath="$PROJECT_DIR$/.idea/IB_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PyQt5_Testing/.idea/PyQt5_Testing.iml" filepath="$PROJECT_DIR$/../PyQt5_Testing/.idea/PyQt5_Testing.iml" />
     </modules>
   </component>
 </project>

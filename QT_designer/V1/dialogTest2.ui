@@ -56,63 +56,7 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox_2">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>20</y>
-     <width>641</width>
-     <height>241</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Magneto</family>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <italic>true</italic>
-     <bold>false</bold>
-     <underline>false</underline>
-     <kerning>true</kerning>
-    </font>
-   </property>
-   <property name="title">
-    <string>Underlying Detail</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-   <property name="flat">
-    <bool>true</bool>
-   </property>
-   <widget class="QPushButton" name="getUnderlyingDetailButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>140</y>
-      <width>81</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MS Shell Dlg 2</family>
-      <pointsize>8</pointsize>
-      <italic>false</italic>
-     </font>
-    </property>
-    <property name="text">
-     <string>Get Details</string>
-    </property>
-    <property name="checkable">
-     <bool>false</bool>
-    </property>
-    <property name="flat">
-     <bool>false</bool>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -320,116 +264,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>50</y>
-     <width>291</width>
-     <height>101</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout_2">
-    <item row="3" column="0">
-     <widget class="QLabel" name="lb_expiry">
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Option Expiry:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QDateEdit" name="dateExpiry"/>
-    </item>
-    <item row="0" column="3">
-     <widget class="QLineEdit" name="strike">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="lb_SecType">
-      <property name="contextMenuPolicy">
-       <enum>Qt::NoContextMenu</enum>
-      </property>
-      <property name="text">
-       <string>Security Type:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="2">
-     <widget class="QLabel" name="lb_stk">
-      <property name="text">
-       <string>Strike</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
-     <widget class="QLabel" name="lb_callPut">
-      <property name="text">
-       <string>Call/Put</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QLineEdit" name="call_put">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="lb_symbol">
-      <property name="text">
-       <string>Symbol:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="lb_exc">
-      <property name="text">
-       <string>Exchange:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="3">
-     <widget class="QLineEdit" name="currency">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
-     <widget class="QLabel" name="lb_currency">
-      <property name="text">
-       <string>Currency</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="symbol">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QComboBox" name="securityType">
-      <property name="maxCount">
-       <number>10</number>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QComboBox" name="exchange_2">
-      <property name="maxCount">
-       <number>10</number>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>820</x>
@@ -645,29 +480,192 @@
     </item>
    </layout>
   </widget>
-  <zorder>groupBox_2</zorder>
+  <widget class="QDateEdit" name="dateExpiry">
+   <property name="geometry">
+    <rect>
+     <x>227</x>
+     <y>149</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_expiry">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>149</y>
+     <width>69</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Option Expiry:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_SecType">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>87</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="text">
+    <string>Security Type:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_symbol">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>56</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Symbol:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_exc">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>118</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exchange:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="currency">
+   <property name="geometry">
+    <rect>
+     <x>364</x>
+     <y>118</y>
+     <width>76</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_stk">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>56</y>
+     <width>27</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Strike</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="strike">
+   <property name="geometry">
+    <rect>
+     <x>364</x>
+     <y>56</y>
+     <width>76</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_callPut">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>87</y>
+     <width>37</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Call/Put</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="call_put">
+   <property name="geometry">
+    <rect>
+     <x>364</x>
+     <y>87</y>
+     <width>76</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_currency">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>118</y>
+     <width>44</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Currency</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="exchange_2">
+   <property name="geometry">
+    <rect>
+     <x>227</x>
+     <y>118</y>
+     <width>69</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maxCount">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="securityType">
+   <property name="geometry">
+    <rect>
+     <x>227</x>
+     <y>87</y>
+     <width>69</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="maxCount">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="symbol">
+   <property name="geometry">
+    <rect>
+     <x>227</x>
+     <y>56</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
   <zorder>groupBox</zorder>
   <zorder>layoutWidget</zorder>
-  <zorder>layoutWidget_2</zorder>
   <zorder>layoutWidget</zorder>
   <zorder>layoutWidget</zorder>
-  <zorder>layoutWidget_4</zorder>
-  <zorder>layoutWidget_5</zorder>
-  <zorder>stockLast_2</zorder>
-  <zorder>label_4</zorder>
-  <zorder>stockClose_2</zorder>
-  <zorder>label_10</zorder>
-  <zorder>labelExpiry_3</zorder>
-  <zorder>impliedVol_2</zorder>
-  <zorder>historicVol_2</zorder>
-  <zorder>lb_symbol_8</zorder>
-  <zorder></zorder>
-  <zorder>putVolume</zorder>
-  <zorder>callVolume</zorder>
-  <zorder>lb_symbol_7</zorder>
-  <zorder>label_8</zorder>
-  <zorder></zorder>
-  <zorder>lb_stk</zorder>
   <zorder>pushButton</zorder>
  </widget>
  <resources/>

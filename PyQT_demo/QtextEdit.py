@@ -1,13 +1,13 @@
 import os
 import sys
-from PyQt5.QtWidgets import QApplication, QTextEdit, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QFileDialog
+from PyQt5.QtWidgets import QApplication, QLineEdit, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QFileDialog
 
 
 class Notepad(QWidget):
 
     def __init__(self):
         super(Notepad, self).__init__()
-        self.text = QTextEdit(self)
+        self.text = QLineEdit(self)
         self.clr_btn = QPushButton('Clear')
         self.sav_btn = QPushButton('Save')
         self.opn_btn = QPushButton('Open')
