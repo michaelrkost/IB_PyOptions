@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b44bcd8d-1f55-4ca1-b375-7af38ab7ed10" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyQT_demo/simple.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/view/dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/view/icons/py_pic.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/IB_api.iml" afterPath="$PROJECT_DIR$/.idea/IB_api.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/view/mainwindow.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PyQT_demo/QtextEdit.py" afterPath="$PROJECT_DIR$/PyQT_demo/QtextEdit.py" />
-      <change beforePath="$PROJECT_DIR$/QT_designer/dialog.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/QT_designer/dialog.py.old" afterPath="$PROJECT_DIR$/QT_designer/V1/dialog.py.old" />
-      <change beforePath="$PROJECT_DIR$/QT_designer/dialog.ui" afterPath="$PROJECT_DIR$/QT_designer/V1/dialog.ui" />
-      <change beforePath="$PROJECT_DIR$/view/__init__.py" afterPath="$PROJECT_DIR$/view/dialogView.py" />
+      <change beforePath="$PROJECT_DIR$/view/dialogView.py" afterPath="$PROJECT_DIR$/view/dialogView.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,14 +17,24 @@
     <favorites_list name="IB_PyOptions" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.58125">
+    <splitter split-orientation="horizontal" split-proportion="0.42118862">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="pyqt5_lesson_11.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_11.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="dialogView.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/view/dialogView.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+                <state relative-caret-position="839">
+                  <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#27#0" expanded="true" />
                   </folding>
@@ -40,66 +42,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dialog.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/view/dialog.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="pyqt5_lesson_10.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_10.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="mainwindow.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/view/mainwindow.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+                <state relative-caret-position="261">
+                  <caret line="399" column="0" lean-forward="true" selection-start-line="399" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
                   <folding>
-                    <element signature="e#436#446#0" expanded="true" />
-                    <element signature="e#1609#2650#0" expanded="false" />
-                    <element signature="e#2694#2782#0" expanded="false" />
-                    <element signature="e#2816#2959#0" expanded="false" />
-                    <element signature="e#3007#3140#0" expanded="false" />
-                    <element signature="e#3185#3511#0" expanded="false" />
+                    <element signature="e#21005#23910#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pyqt5_lesson_14.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_14.py">
+          <file leaf-file-name="dialogView.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/view/dialogView.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2261">
-                  <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+                <state relative-caret-position="149">
+                  <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
                   <folding>
-                    <element signature="e#438#448#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pyqt5_lesson_01.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_01.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pyqt5_lesson_02.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_02.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#443#453#0" expanded="true" />
+                    <element signature="e#0#27#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -121,6 +86,19 @@
       <find>symbol</find>
       <find>11</find>
       <find>dialo</find>
+      <find>qui</find>
+      <find>Qui</find>
+      <find>0</find>
+      <find>0</find>
+      <find>parent</find>
+      <find>action</find>
+      <find>button</find>
+      <find>i</find>
+      <find>quit</find>
+      <find>open</find>
+      <find>menuMenu</find>
+      <find>Qaction</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,13 +125,14 @@
         <option value="$PROJECT_DIR$/view/dialog.ui" />
         <option value="$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_10.py" />
         <option value="$PROJECT_DIR$/view/dialog.py" />
+        <option value="$PROJECT_DIR$/view/mainwindow.py" />
         <option value="$PROJECT_DIR$/view/dialogView.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="84" />
-    <option name="y" value="77" />
+    <option name="x" value="234" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -175,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,26 +171,12 @@
             <path>
               <item name="IB_PyOptions" type="b2602c69:ProjectViewProjectNode" />
               <item name="IB_PyOptions" type="462c0819:PsiDirectoryNode" />
-              <item name="QT_designer" type="462c0819:PsiDirectoryNode" />
-              <item name="V1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IB_PyOptions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IB_PyOptions" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IB_PyOptions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IB_PyOptions" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +186,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Michael\Documents\Python\IB_PyOptions\view" />
+      <recent name="C:\Users\Michael\Documents\Python\IB_PyOptions\QT_designer" />
       <recent name="C:\Users\Michael\Documents\Python\IB_PyOptions\QT_designer\V1" />
       <recent name="C:\Users\Michael\Documents\Python\IB_PyOptions\PyQT_demo" />
       <recent name="C:\Users\Michael\Documents\Python\IB_PyOptions" />
@@ -404,13 +372,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18440464" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5021075" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49789253" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39914164" sideWeight="0.5021075" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49683878" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39914164" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2528978" sideWeight="0.50429183" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -430,28 +398,17 @@
           <url>file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_15.py</url>
           <line>13</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/view/dialogView.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQT_demo/button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dialog.py" />
-    <entry file="file://$PROJECT_DIR$/view/__init__.py" />
     <entry file="file://$PROJECT_DIR$/PyQT_demo/QcheckBox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -576,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/button.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -647,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,25 +604,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/dialog.ui">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/view/dialog.ui" />
     <entry file="file://$PROJECT_DIR$/python_school/potato_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,13 +648,19 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Form1.qml" />
+    <entry file="file://$PROJECT_DIR$/Form1Form.ui.qml" />
     <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#443#453#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,47 +668,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_10.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#436#446#0" expanded="true" />
-            <element signature="e#1609#2650#0" expanded="false" />
-            <element signature="e#2694#2782#0" expanded="false" />
-            <element signature="e#2816#2959#0" expanded="false" />
-            <element signature="e#3007#3140#0" expanded="false" />
-            <element signature="e#3185#3511#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5_Testing/PyQt5_PyProgramming/pyqt5_lesson_14.py">
+    <entry file="file://$PROJECT_DIR$/view/mainwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        <state relative-caret-position="261">
+          <caret line="399" column="0" lean-forward="true" selection-start-line="399" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
           <folding>
-            <element signature="e#438#448#0" expanded="true" />
+            <element signature="e#21005#23910#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dialogView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="839">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
