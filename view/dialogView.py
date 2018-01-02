@@ -4,20 +4,24 @@ from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QPushButton, QAc
 
 
 from view.mainwindow import Ui_MainWindow
-
+def msgbtn(i):
+   print ("Button pressed is:",i.text())
 
 def close_application():
 
     print("hello")
-    # choice = QMessageBox.question(QWidget, 'Message',
-    #                               "Are you sure to quit?", QMessageBox.Yes |
-    #                               QMessageBox.No, QMessageBox.No)
-    #
-    # if choice == QMessageBox.Yes:
-    #     print('quit application')
-    #     sys.exit()
-    # else:
-    #     pass
+    msg = QMessageBox()
+    msg.setIcon(QMessageBox.Information)
+
+    msg.setText("This is a message box")
+    msg.setInformativeText("This is additional information")
+    msg.setWindowTitle("MessageBox demo")
+    msg.setDetailedText("The details are as follows:")
+    msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+    msg.buttonClicked.connect(msgbtn)
+
+    retval = msg.exec_()
+    print ("value of pressed message box button:", retval)
 
 def setup_window (ui_main_window, an_app):
     # update the Drop Down menus
