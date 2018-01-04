@@ -9,19 +9,23 @@ def msgbtn(i):
 
 def close_application():
 
-    print("hello")
     msg = QMessageBox()
     msg.setIcon(QMessageBox.Information)
 
-    msg.setText("This is a message box")
-    msg.setInformativeText("This is additional information")
-    msg.setWindowTitle("MessageBox demo")
-    msg.setDetailedText("The details are as follows:")
+    msg.setText("Do you want to Quit?")
+    msg.setWindowTitle("Quit?")
     msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
     msg.buttonClicked.connect(msgbtn)
 
     retval = msg.exec_()
+
     print ("value of pressed message box button:", retval)
+
+    if retval == QMessageBox.Ok:
+        print('quit application')
+        sys.exit()
+    else:
+        pass
 
 def setup_window (ui_main_window, an_app):
     # update the Drop Down menus
@@ -40,8 +44,12 @@ def setup_window (ui_main_window, an_app):
 
     ui_main_window.actionQuit.triggered.connect(close_application)
 
+
+   #ui_main_window.statusbar()
+
     # add the IB icon
     QWidget.setWindowIcon(an_app, QIcon('icons\ib.png'))
+
 
 
 if __name__ == "__main__":
