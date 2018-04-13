@@ -19,43 +19,17 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>201</width>
+      <width>331</width>
       <height>141</height>
      </rect>
     </property>
     <property name="title">
      <string>Underlying Info</string>
     </property>
-    <widget class="QLabel" name="label_8">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>61</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Underlying:</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="underlyingText">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>40</y>
-       <width>61</width>
-       <height>20</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QPushButton" name="updatePushButton">
      <property name="geometry">
       <rect>
-       <x>120</x>
+       <x>250</x>
        <y>110</y>
        <width>75</width>
        <height>23</height>
@@ -63,65 +37,6 @@
      </property>
      <property name="text">
       <string>Qualify</string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="comboBoxExchange">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>40</y>
-       <width>71</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="toolTip">
-      <string extracomment="ISLAND for NASDAQ"/>
-     </property>
-     <item>
-      <property name="text">
-       <string>CBOE</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>ISLAND</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>NYSE</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>AMEX</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>IDEAL</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>PHLX</string>
-      </property>
-     </item>
-    </widget>
-    <widget class="QLabel" name="labelExchange">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>24</y>
-       <width>47</width>
-       <height>13</height>
-      </rect>
-     </property>
-     <property name="whatsThis">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Exchange:</string>
      </property>
     </widget>
     <widget class="QSplitter" name="splitter">
@@ -154,6 +69,104 @@
        <string>Option</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Underlying:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="labelExchange">
+        <property name="whatsThis">
+         <string/>
+        </property>
+        <property name="text">
+         <string>Exchange:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Expriy</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="underlyingText"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxExchange">
+        <property name="toolTip">
+         <string extracomment="ISLAND for NASDAQ"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>CBOE</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SMART</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ISLAND</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>NYSE</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>AMEX</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>IDEAL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>PHLX</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QComboBox" name="comboBox_Expriy">
+        <item>
+         <property name="text">
+          <string>20180817</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>20200619</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QPushButton" name="connectButton">
